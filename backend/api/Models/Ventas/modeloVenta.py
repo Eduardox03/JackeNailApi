@@ -30,7 +30,7 @@ class DetalleVenta(BaseModel):
     idDetalle: int
     VentaId: int
     insumoId:List[int]
-    precioUnitario: float
+    precioUnitario: int
     cantidadInsumo: int
     
 
